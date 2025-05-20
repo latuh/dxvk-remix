@@ -41,7 +41,7 @@ namespace dxvk {
     memcpyKickoffThreshold = config.getOption<uint32_t>("dxvk.memcpyKickoffThreshold", 16 * 1024 * 1024);
     // NV-DXVK end
 
-    // NV-DXVK start: tell the user they cant run Remix
+    // NV-DXVK start: tell the user they cant run Remix asd
     float nvidiaMinDriverFloat = config.getOption<float>("dxvk.nvidiaMinDriver", 460.89f, "DXVK_REMIX_NVIDIA_MIN_DRIVER");
     float nvidiaGfnMinDriverFloat = config.getOption<float>("dxvk.nvidiaGfnMinDriver", 460.89f);
     float nvidiaLinuxMinDriverFloat = config.getOption<float>("dxvk.nvidiaLinuxMinDriver", 460.89f);
